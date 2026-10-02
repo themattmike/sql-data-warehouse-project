@@ -24,6 +24,14 @@ This project involves:
 
 ---
 
+## 🔨 Tools and Technologies
+- **SQL Server Express** - Database Engine
+- **SQL Server Management Studio (SSMS)** - SQL development and database management
+- **Git and GitHub** - Version control and repository management
+- **Draw.io** - Data architecture and data modeling diagrams
+
+---
+
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
