@@ -22,6 +22,8 @@ This project involves:
 - Data Warehousing
 - Data Analytics
 
+---
+
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
