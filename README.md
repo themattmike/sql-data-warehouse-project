@@ -87,7 +87,7 @@ data-warehouse-project/
 ```
 ---
 
-### 📊 Analytics & Reporting (Data Analytics)
+### 📊 Analytics & Reporting
 
 #### Objective
 Develop SQL-based analytics to generate insights into:
