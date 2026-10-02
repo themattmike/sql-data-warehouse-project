@@ -42,18 +42,31 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Integration**: Combine both sources into a unified data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
+
+### 📊 Analytics & Reporting
+
+#### Objective
+Develop SQL-based analytics to generate insights into:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+---
+
 
 ### 🏗️ Data Architecture
 
 The data architecture for this project follows a **Medallion Architecture** consisting of **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](docs/data_architecture.png)
 
-1. **Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV Files into the SQL Server database.
+1. **Bronze Layer:** Stores raw data as-is from the source systems. Data is ingested from CSV files into the SQL Server database.
 2. **Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer:** Houses business-ready data modeled into a star schema for reporting and analytics.
 
@@ -70,7 +83,7 @@ data-warehouse-project/
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_model.drawio              # Draw.io file for data models (star schema)
+│   ├── data_model.drawio              # Draw.io file for the data model (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
@@ -82,21 +95,7 @@ data-warehouse-project/
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
----
-
-### 📊 Analytics & Reporting
-
-#### Objective
-Develop SQL-based analytics to generate insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-
 ---
 
 ## 🛡️ License
